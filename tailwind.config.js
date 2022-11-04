@@ -43,9 +43,18 @@ module.exports = {
           "url('https://raw.githubusercontent.com/adrianhajdin/project_syncfusion_dashboard/faed19214fdd19a6accf73954ca5fe23a01e2da7/src/data/welcome-bg.svg')",
       },
       transitionProperty: {
-        'width': 'width',
-        'spacing': 'margin, padding',
-      }
+        width: "width",
+        spacing: "margin, padding",
+      },
+      keyframes: {
+        navbarAnimation: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        navbarAnimation: "navbarAnimation .13s linear 1",
+      },
     },
   },
   plugins: [],

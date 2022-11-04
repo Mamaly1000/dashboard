@@ -6,6 +6,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+* {
+  transition: background-color 0.13s linear, width 0.13s linear,
+    height 0.13s linear, opacity 0.13s linear, box-shadow 0.13s linear,background .13s linear,color .13s linear;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
